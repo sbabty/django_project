@@ -18,7 +18,7 @@ A one-command solution to Django project with virtual environment, perfect for q
 ## 🛠️ Installation & Usage
 
 ### Quick Start (One-Line Install)
-```bash
+
 bash <(curl -sL https://github.com/sbabty/django_project/blob/main/ScriptDjangoProject.sh)
 
 ### Manual Installation
