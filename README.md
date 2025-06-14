@@ -5,7 +5,7 @@
 ![Shell Script](https://img.shields.io/badge/shell_script-bash-purple)
 ![Platform](https://img.shields.io/badge/platform-windows%20%7C%20linux%20%7C%20macos-lightgrey)
 
-A one-command solution to bootstrap a Django project with virtual environment, perfect for quick project initialization.
+A one-command solution to Django project with virtual environment, perfect for quick project initialization.
 
 ## ✨ Features
 
@@ -15,21 +15,19 @@ A one-command solution to bootstrap a Django project with virtual environment, p
 - 🏗️ Ready-to-use project structure
 - 🖥️ Cross-platform support (Windows/Git Bash, Linux, macOS)
 
-## 🛠️ Installation
+## 🛠️ Installation & Usage
 
-```bash
-# Download the script
-curl -O https://raw.githubusercontent.com/yourusername/yourrepo/main/setup_django_project.sh
+# 1. Download the script
+curl -O https://raw.githubusercontent.com/sbabty/django_project/main/ScriptDjangoProject.sh
 
-# Make executable
-chmod +x setup_django_project.sh
+# 2. Make executable
+chmod +x ScriptDjangoProject.sh
+
+# 3. Run the script
+./ScriptDjangoProject.sh
 
 
-🚦 Quick Start
-./setup_django_project.sh
-
-Project Structure
-
+🏗️ Generated Project Structure
 myEnv/
 ├── Include/               # Python C headers (can be ignored)
 ├── Lib/                   # Installed packages
@@ -41,30 +39,22 @@ myEnv/
 ├── requirements.txt        # Installed dependencies
 └── .gitignore             # Basic exclusion file
 
+🚀 Quick Commands After Setup
 
-Usage Instructions
-After setup:
+# 1. Activate environment (choose your OS):
+source project_env/bin/activate       # Linux/macOS
+project_env\Scripts\activate          # Windows CMD
+source project_env/Scripts/activate   # Git Bash
 
-# Activate environment
-source envtest0001/Scripts/activate  # Windows/Git Bash
-source envtest0001/bin/activate      # Linux/macOS
+# 2. Navigate to project
+cd project_env/myproject
 
-# Enter project
-cd envtest0001/project11
-
-# Start dev server
+# 3. Run development server
 python manage.py runserver
 
 
-Customization
-Edit these variables in the script:
+🛠️ Troubleshooting
+Virtualenv not working on Windows?
 
-VENV_NAME="envtest0001"        # Change virtualenv name
-PROJECT_NAME="project11"       # Change project name
-REQUIREMENTS_FILE="requirements.txt"  # Change dependencies file
-
-
-Requirements
-
-Python 3.7+
-Git Bash (on Windows)
+Ensure Python is installed from python.org (not Microsoft Store)
+Run as Administrator if encountering permission issues
