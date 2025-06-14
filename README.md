@@ -18,7 +18,7 @@ A one-command solution to Django project with virtual environment, perfect for q
 ## 🛠️ Installation & Usage
 
 # 1. Download the script
-curl -O https://raw.githubusercontent.com/sbabty/django_project/main/ScriptDjangoProject.sh
+curl -O https://github.com/sbabty/django_project/blob/main/ScriptDjangoProject.sh
 
 # 2. Make executable
 chmod +x ScriptDjangoProject.sh
