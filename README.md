@@ -72,6 +72,6 @@ Ensure Python is in your PATH<br>
 Run as Administrator if encountering permission issues
 
 ## 📋 Requirements
-Python 3.7+
-Git Bash (recommended for Windows)
-curl or wget
+<br>Python 3.7+
+<br>Git Bash (recommended for Windows)
+<br>curl or wget
