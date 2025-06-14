@@ -23,13 +23,13 @@ bash <(curl -sL https://github.com/sbabty/django_project/blob/main/ScriptDjangoP
 
 ### Manual Installation
   1. Download the script :
-    curl -O https://github.com/sbabty/django_project/blob/main/ScriptDjangoProject.sh
+    <br>curl -O https://github.com/sbabty/django_project/blob/main/ScriptDjangoProject.sh
 
   2. Make executable :
-    chmod +x ScriptDjangoProject.sh
+    <br>chmod +x ScriptDjangoProject.sh
 
   3. Run the script :
-    ./ScriptDjangoProject.sh
+    <br>./ScriptDjangoProject.sh
 
 
 ## 🏗️ Generated Project Structure
@@ -54,21 +54,21 @@ myEnv/<br>
 ## 🚀 Quick Commands After Setup
 
   1. Activate environment (choose your OS):
-     source project_env/bin/activate       # Linux/macOS
-     project_env\Scripts\activate          # Windows CMD
-     source project_env/Scripts/activate   # Git Bash
+     <br>source project_env/bin/activate       # Linux/macOS
+     <br>project_env\Scripts\activate          # Windows CMD
+     <br>source project_env/Scripts/activate   # Git Bash
 
   2. Navigate to project :
-     cd project_env/myproject
+     <br>cd project_env/myproject
 
   3. Run development server :
-     python manage.py runserver
+     <br>python manage.py runserver
 
 ## 🛠️ Troubleshooting
 Virtualenv not working on Windows?
 
-Ensure Python is installed from python.org (not Microsoft Store)
-Ensure Python is in your PATH
+Ensure Python is installed from python.org (not Microsoft Store)<br>
+Ensure Python is in your PATH<br>
 Run as Administrator if encountering permission issues
 
 ## 📋 Requirements
