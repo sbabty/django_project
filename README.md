@@ -34,7 +34,7 @@ bash <(curl -sL https://github.com/sbabty/django_project/blob/main/ScriptDjangoP
 
 ## 🏗️ Generated Project Structure
 <p>myEnv/<br>
-<p>├── Include/         # Python C headers (can be ignored)<br>
+<p>├── Include/         # Python C headers (can be ignored)<br></p>
 <p>├── Lib/             # Installed packages<br>
 <p>├── Scripts/         # Virtualenv binaries<br>
 <p>│ ├── activate       # Environment activation script<br>
