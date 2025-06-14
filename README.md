@@ -22,13 +22,13 @@ A one-command solution to Django project with virtual environment, perfect for q
 bash <(curl -sL https://github.com/sbabty/django_project/blob/main/ScriptDjangoProject.sh)
 
 ### Manual Installation
-  1. Download the script
+  1. Download the script :
     curl -O https://github.com/sbabty/django_project/blob/main/ScriptDjangoProject.sh
 
-  2. Make executable
+  2. Make executable :
     chmod +x ScriptDjangoProject.sh
 
-  3. Run the script
+  3. Run the script :
     ./ScriptDjangoProject.sh
 
 
@@ -47,15 +47,15 @@ myEnv/
 ## 🚀 Quick Commands After Setup
 
   1. Activate environment (choose your OS):
-source project_env/bin/activate       # Linux/macOS
-project_env\Scripts\activate          # Windows CMD
-source project_env/Scripts/activate   # Git Bash
+     source project_env/bin/activate       # Linux/macOS
+     project_env\Scripts\activate          # Windows CMD
+     source project_env/Scripts/activate   # Git Bash
 
-  2. Navigate to project
-cd project_env/myproject
+  2. Navigate to project :
+     cd project_env/myproject
 
-  3. Run development server
-python manage.py runserver
+  3. Run development server :
+     python manage.py runserver
 
 ## 🛠️ Troubleshooting
 Virtualenv not working on Windows?
