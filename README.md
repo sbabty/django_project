@@ -17,17 +17,22 @@ A one-command solution to Django project with virtual environment, perfect for q
 
 ## 🛠️ Installation & Usage
 
-# 1. Download the script
-curl -O https://github.com/sbabty/django_project/blob/main/ScriptDjangoProject.sh
+### Quick Start (One-Line Install)
+```bash
+bash <(curl -sL https://github.com/sbabty/django_project/blob/main/ScriptDjangoProject.sh)
 
-# 2. Make executable
-chmod +x ScriptDjangoProject.sh
+### Manual Installation
+  1. Download the script
+    curl -O https://github.com/sbabty/django_project/blob/main/ScriptDjangoProject.sh
 
-# 3. Run the script
-./ScriptDjangoProject.sh
+  2. Make executable
+    chmod +x ScriptDjangoProject.sh
+
+  3. Run the script
+    ./ScriptDjangoProject.sh
 
 
-🏗️ Generated Project Structure
+## 🏗️ Generated Project Structure
 myEnv/
 ├── Include/               # Python C headers (can be ignored)
 ├── Lib/                   # Installed packages
@@ -39,22 +44,27 @@ myEnv/
 ├── requirements.txt        # Installed dependencies
 └── .gitignore             # Basic exclusion file
 
-🚀 Quick Commands After Setup
+## 🚀 Quick Commands After Setup
 
-# 1. Activate environment (choose your OS):
+  1. Activate environment (choose your OS):
 source project_env/bin/activate       # Linux/macOS
 project_env\Scripts\activate          # Windows CMD
 source project_env/Scripts/activate   # Git Bash
 
-# 2. Navigate to project
+  2. Navigate to project
 cd project_env/myproject
 
-# 3. Run development server
+  3. Run development server
 python manage.py runserver
 
-
-🛠️ Troubleshooting
+## 🛠️ Troubleshooting
 Virtualenv not working on Windows?
 
 Ensure Python is installed from python.org (not Microsoft Store)
+Ensure Python is in your PATH
 Run as Administrator if encountering permission issues
+
+## 📋 Requirements
+Python 3.7+
+Git Bash (recommended for Windows)
+curl or wget
