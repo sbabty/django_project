@@ -34,15 +34,22 @@ bash <(curl -sL https://github.com/sbabty/django_project/blob/main/ScriptDjangoP
 
 ## 🏗️ Generated Project Structure
 myEnv/
-├── Include/               # Python C headers (can be ignored)
-├── Lib/                   # Installed packages
-├── Scripts/               # Virtualenv binaries
-├── myproject/             # Your Django project
-│   ├── manage.py	    # Django management script
-│   └── myproject/         # Project config (settings/urls/wsgi)
-├── pyvenv.cfg              # Virtualenv configuration
-├── requirements.txt        # Installed dependencies
-└── .gitignore             # Basic exclusion file
+├── Include/ # Python C headers (can be ignored)
+├── Lib/ # Installed packages
+├── Scripts/ # Virtualenv binaries
+│ ├── activate # Environment activation script
+│ ├── activate.bat # Windows activation
+│ └── python.exe # Python executable
+├── myproject/ # Your Django project
+│ ├── manage.py # Django management script
+│ └── myproject/ # Project config
+│ ├── init.py
+│ ├── settings.py # Django settings
+│ ├── urls.py # URL routing
+│ └── wsgi.py # WSGI configuration
+├── pyvenv.cfg # Virtualenv configuration
+├── requirements.txt # Installed dependencies
+└── .gitignore # Basic exclusion file
 
 ## 🚀 Quick Commands After Setup
 
