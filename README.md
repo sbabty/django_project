@@ -34,29 +34,29 @@ bash <(curl -sL https://github.com/sbabty/django_project/blob/main/ScriptDjangoP
 
 ## 🏗️ Generated Project Structure
 myEnv/<br>
-├── Include/ # Python C headers (can be ignored)<br>
-├── Lib/ # Installed packages<br>
-├── Scripts/ # Virtualenv binaries<br>
-│ ├── activate # Environment activation script<br>
-│ ├── activate.bat # Windows activation<br>
-│ └── python.exe # Python executable<br>
-├── myproject/ # Your Django project<br>
-│ ├── manage.py # Django management script<br>
-│ └── myproject/ # Project config<br>
+├── Include/         # Python C headers (can be ignored)<br>
+├── Lib/             # Installed packages<br>
+├── Scripts/         # Virtualenv binaries<br>
+│ ├── activate       # Environment activation script<br>
+│ ├── activate.bat   # Windows activation<br>
+│ └── python.exe     # Python executable<br>
+├── myproject/       # Your Django project<br>
+│ ├── manage.py      # Django management script<br>
+│ └── myproject/     # Project config<br>
 │ ├── init.py<br>
-│ ├── settings.py # Django settings<br>
-│ ├── urls.py # URL routing<br>
-│ └── wsgi.py # WSGI configuration<br>
-├── pyvenv.cfg # Virtualenv configuration<br>
+│ ├── settings.py    # Django settings<br>
+│ ├── urls.py        # URL routing<br>
+│ └── wsgi.py        # WSGI configuration<br>
+├── pyvenv.cfg       # Virtualenv configuration<br>
 ├── requirements.txt # Installed dependencies<br>
-└── .gitignore # Basic exclusion file<br>
+└── .gitignore       # Basic exclusion file<br>
 
 ## 🚀 Quick Commands After Setup
 
   1. Activate environment (choose your OS):
-     <br>source project_env/bin/activate       # Linux/macOS
-     <br>project_env\Scripts\activate          # Windows CMD
-     <br>source project_env/Scripts/activate   # Git Bash
+     <br>source project_env/bin/activate         # Linux/macOS
+     <br>project_env\Scripts\activate            # Windows CMD
+     <br>source project_env/Scripts/activate     # Git Bash
 
   2. Navigate to project :
      <br>cd project_env/myproject
